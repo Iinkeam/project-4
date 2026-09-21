@@ -41,9 +41,10 @@ public class main {
         System.out.println();
 
         // 5. nested loop:
-                for (int row = 1; row <= 3; row++) {
-                    for (int line = 1; line <= 3; line++) {
-                        System.out.print("(" + row + ", " + line + ") ");
+        String star = "*";
+                for (int y = 1; y <= 10; y++) {
+                    for (int x = 1; x <= 14; x++) {
+                        System.out.print(star + " ");
                     }
                     System.out.println();
                 }
